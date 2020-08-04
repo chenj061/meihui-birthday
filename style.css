@@ -131,6 +131,8 @@ h1 {
 .gallerysec {
     background-image: url("https://previews.123rf.com/images/nokfreelance/nokfreelance1705/nokfreelance170500126/108997441-pink-blurred-abstract-background-pink-abstract-background-soft-backdrop-of-nature-abstract-backgroun.jpg");
     background-repeat: no-repeat;
+    background-size: auto;
+
 }
 
 .messagesec {
