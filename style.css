@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.green{
+    background: #56B870; /* Old browsers */
+    background: -moz-linear-gradient(top, #56B870 0%, #a5c956 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#56B870), color-stop(100%,#a5c956)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #56B870 0%,#a5c956 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #56B870 0%,#a5c956 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #56B870 0%,#a5c956 100%); /* IE10+ */
+    background: linear-gradient(top, #56B870 0%,#a5c956 100%); /* W3C */
+}
+
+/***********************************************************************
+ *  Red Background
+ **********************************************************************/
+.red{
+    background: #C655BE; /* Old browsers */
+    background: -moz-linear-gradient(top, #C655BE 0%, #cf0404 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#C655BE), color-stop(100%,#cf0404)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #C655BE 0%,#cf0404 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #C655BE 0%,#cf0404 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #C655BE 0%,#cf0404 100%); /* IE10+ */
+    background: linear-gradient(top, #C655BE 0%,#cf0404 100%); /* W3C */
+}
+
+/***********************************************************************
+ *  Yellow Background
+ **********************************************************************/
+.yellow{
+    background: #F3AAAA; /* Old browsers */
+    background: -moz-linear-gradient(top, #F3AAAA 0%, #febf04 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#F3AAAA), color-stop(100%,#febf04)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #F3AAAA 0%,#febf04 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #F3AAAA 0%,#febf04 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #F3AAAA 0%,#febf04 100%); /* IE10+ */
+    background: linear-gradient(top, #F3AAAA 0%,#febf04 100%); /* W3C */
+}
+
+/***********************************************************************
+ *  Blue Background
+ **********************************************************************/
+.blue{
+    background: #7abcff; /* Old browsers */
+    background: -moz-linear-gradient(top, #7abcff 0%, #60abf8 44%, #4096ee 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#7abcff), color-stop(44%,#60abf8), color-stop(100%,#4096ee)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #7abcff 0%,#60abf8 44%,#4096ee 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #7abcff 0%,#60abf8 44%,#4096ee 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #7abcff 0%,#60abf8 44%,#4096ee 100%); /* IE10+ */
+    background: linear-gradient(top, #7abcff 0%,#60abf8 44%,#4096ee 100%); /* W3C */
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+
+header {
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://www.databankimx.com/wp-content/uploads/2015/07/Microsoft-Cloud-Offerings.jpg");
+    height: 40vh;
+}
+
+h1 {
+    background: #99bcff; /* Old browsers */
+    background: -moz-linear-gradient(top, #99bcff 0%, #60abf8 44%, #aa96ff 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#99bcff), color-stop(44%,#60abf8), color-stop(100%,##aa96ff)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #99bcff 0%,#60abf8 44%,#aa96ff 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #99bcff 0%,#60abf8 44%,#aa96ff 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #99bcff 0%,#60abf8 44%,#aa96ff 100%); /* IE10+ */
+    background: linear-gradient(top, #99bcff 0%,#60abf8 44%,#aa96ff 100%); /* W3C */
+    border-radius: 15px 50px 30px;
+    border-radius: -moz-15px 50px 30px;
+    border-radius: -webkit-15px 50px 30px;
+    border-radius: -o-15px 50px 30px;
+    border-radius: -ms-15px 50px 30px;
+    padding: 2rem;
+}
+
+.section {
+/*	padding: 30px;
+	margin: 40px 60px;*/
+	cursor: pointer; /*Make this into fun icon later*/
+	color: #FFF;
+	font-size: 2em;
+	border: 1px solid #bbb;
+	transition: all 0.3s linear;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.section:hover {
+    -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
+
+.countersec {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 60vh;
+}
+
+.counters {
+	color: #ddddff;
+	text-align: center;
+}
+
+.counters .counter {
+	font-size: 7rem;
+	margin: 0%;
+    transition: all 1s;
+}
+
+.images {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.box > img {
+    width: 90%;
+    padding: 20px;
+    background-color: #ffff00;
+    margin: 20px;
+}
+
+.gallerysec {
+    background-image: url("https://previews.123rf.com/images/nokfreelance/nokfreelance1705/nokfreelance170500126/108997441-pink-blurred-abstract-background-pink-abstract-background-soft-backdrop-of-nature-abstract-backgroun.jpg");
+    background-repeat: no-repeat;
+}
+
+.messagesec {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.messagecontainer {
+    padding: 10%;
+    margin: 10%;
+    background-color: rgba(255,255,224,0.25);
+    border-radius: 15px 50px 30px;
+    border-radius: -moz-15px 50px 30px;
+    border-radius: -webkit-15px 50px 30px;
+    border-radius: -o-15px 50px 30px;
+    border-radius: -ms-15px 50px 30px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.audioplayer {
+    margin: 1rem;
+    width: 90%;
+}
