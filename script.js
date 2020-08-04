@@ -89,5 +89,5 @@ displayRandomImage3 = () => {
 	let htmlImage = document.querySelector(".image3");
 	htmlImage.src = getRandomImage3();
 
-}
+};
 displayRandomImage3();
