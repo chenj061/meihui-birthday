@@ -129,9 +129,8 @@ h1 {
 }
 
 .gallerysec {
-    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/000/518/441/small/pink_bk1122018.jpg");
-    background-repeat: no-repeat;
-    background-size: auto;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(184,116,177,1) 0%, rgba(246,79,218,1) 100%, rgba(0,212,255,1) 100%);
 
 }
 
